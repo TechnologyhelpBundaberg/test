@@ -1,0 +1,198 @@
+[24.495601654] 2018-05-19 16:24:34,323 - INFO - launcher: Starting sanity checks
+[25.007247925] 2018-05-19 16:24:34,323 - INFO - launcher: Checking for Python 3.5+
+[25.491237640] 2018-05-19 16:24:34,324 - INFO - launcher: Checking console encoding
+[25.491237640] 2018-05-19 16:24:34,324 - INFO - launcher: Setting console encoding to UTF-8
+[25.991678238] 2018-05-19 16:24:34,324 - INFO - launcher: Ensuring we're in the right environment
+[26.991844177] 2018-05-19 16:24:34,325 - INFO - launcher: Adding local bins/ folder to path
+[27.490377426] 2018-05-19 16:24:34,326 - INFO - launcher: Required checks passed.
+[27.992486954] 2018-05-19 16:24:34,326 - INFO - launcher: Optional checks passed.
+[28.493404388] 2018-05-19 16:24:34,327 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.8379061222076416] 2018-05-19 16:24:35,136 - WARNING - musicbot.config | In config.py::MainThread(15608), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.8379061222076416] 2018-05-19 16:24:35,136 - INFO - musicbot.config | In config.py::MainThread(15608), line 123 in run_checks: Using i18n: config/i18n/en.json
+[0.8404057025909424] 2018-05-19 16:24:35,138 - DEBUG - musicbot.json | In json.py::MainThread(15608), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.9944658279418945] 2018-05-19 16:24:35,292 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 227 in _setup_logging: Set logging level to INFO
+[0.9944658279418945] 2018-05-19 16:24:35,292 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 84 in __init__: Starting MusicBot 1.9.7
+[0.9954547882080078] 2018-05-19 16:24:35,293 - WARNING - musicbot.bot | In bot.py::MainThread(15608), line 87 in __init__: Autoplaylist is empty, disabling.
+[4.1946158409118652] 2018-05-19 16:24:38,493 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 1074 in on_ready: Connection established, ready to go.
+[4.1951289176940918] 2018-05-19 16:24:38,493 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 339 in _cache_app_info: Caching app info
+[4.4643814563751221] 2018-05-19 16:24:38,762 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.4663815498352051] 2018-05-19 16:24:38,764 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 905 in _scheck_server_permissions: Checking server permissions
+[4.4663815498352051] 2018-05-19 16:24:38,764 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.4663815498352051] 2018-05-19 16:24:38,764 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 913 in _scheck_configs: Validating config
+[4.4663815498352051] 2018-05-19 16:24:38,764 - DEBUG - musicbot.config | In config.py::MainThread(15608), line 212 in async_validate: Validating options...
+[4.4663815498352051] 2018-05-19 16:24:38,764 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 916 in _scheck_configs: Validating permissions config
+[4.4663815498352051] 2018-05-19 16:24:38,764 - DEBUG - musicbot.permissions | In permissions.py::MainThread(15608), line 64 in async_validate: Validating permissions...
+[4.4668819904327393] 2018-05-19 16:24:38,765 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1091 in on_ready: Connected: 440422461972938772/TechnologyHelpBundaberg#1450
+[4.4674007892608643] 2018-05-19 16:24:38,765 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1099 in on_ready: Owner:     292871335305019394/Technology Help Bundaberg ㋡#9176
+
+[4.4683938026428223] 2018-05-19 16:24:38,766 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1102 in on_ready: Server List:
+[4.4688775539398193] 2018-05-19 16:24:38,767 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1105 in on_ready:  - The Trash Clan
+[4.4693810939788818] 2018-05-19 16:24:38,767 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1105 in on_ready:  - Technology Help Bundaberg
+[4.4693810939788818] 2018-05-19 16:24:38,767 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1105 in on_ready:  - test
+[4.4703855514526367] 2018-05-19 16:24:38,768 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1151 in on_ready: Not bound to any text channels
+[4.4708802700042725] 2018-05-19 16:24:38,769 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 1177 in on_ready: Not autojoining any voice channels
+[4.4713811874389648] 2018-05-19 16:24:38,769 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 272 in _join_startup_channels: Found owner in "General"
+[4.4718816280364990] 2018-05-19 16:24:38,770 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 281 in _join_startup_channels: Attempting to join The Trash Clan/General
+[4.4718816280364990] 2018-05-19 16:24:38,770 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 452 in get_voice_client: Connection attempt 1 to General
+[4.4723813533782959] 2018-05-19 16:24:38,770 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.4723813533782959] 2018-05-19 16:24:38,770 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.4728813171386719] 2018-05-19 16:24:38,771 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.7047924995422363] 2018-05-19 16:24:39,003 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 440422461972938772/TechnologyHelpBundaberg#1450 on The Trash Clan/General -> [JOIN, CONNECT]
+[4.7047924995422363] 2018-05-19 16:24:39,003 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 440422461972938772/TechnologyHelpBundaberg#1450 has joined The Trash Clan/General
+[4.7057774066925049] 2018-05-19 16:24:39,004 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.9129559993743896] 2018-05-19 16:24:39,211 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[5.1428771018981934] 2018-05-19 16:24:39,441 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[5.1433751583099365] 2018-05-19 16:24:39,441 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 478 in get_voice_client: Connected in 0.7s
+[5.1433751583099365] 2018-05-19 16:24:39,441 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 479 in get_voice_client: Connected to The Trash Clan/General
+[5.1440074443817139] 2018-05-19 16:24:39,442 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 849 in deserialize_queue: Deserializing queue for 324059918862778368
+[5.2795298099517822] 2018-05-19 16:24:39,578 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 570 in get_player: Created player via deserialization for server 324059918862778368 with 2 entries
+[5.2795298099517822] 2018-05-19 16:24:39,578 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 297 in _join_startup_channels: Joined The Trash Clan/General
+[5.2805337905883789] 2018-05-19 16:24:39,579 - VOICEDEBUG - musicbot.player | In player.py::MainThread(15608), line 373 in websocket_check: Starting websocket check loop for The Trash Clan
+[5.2805337905883789] 2018-05-19 16:24:39,579 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for None
+[5.2805337905883789] 2018-05-19 16:24:39,579 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for audio_cache\youtube-cMB7L4H_U0A-Evanescence_-_Bring_Me_To_Life.m4a
+[5.2810261249542236] 2018-05-19 16:24:39,579 - FFMPEG - musicbot.player | In player.py::MainThread(15608), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-cMB7L4H_U0A-Evanescence_-_Bring_Me_To_Life.m4a
+[5.2850170135498047] 2018-05-19 16:24:39,583 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 196 in _download: Download cached: https://www.youtube.com/watch?v=3UlRJwVawew
+[5.2860236167907715] 2018-05-19 16:24:39,584 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[5.2915182113647461] 2018-05-19 16:24:39,590 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 868 in write_current_song: Writing current song for 324059918862778368
+[8.9530282020568848] 2018-05-19 16:24:43,251 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +pause
+[9.4536161422729492] 2018-05-19 16:24:43,752 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [UNMUTE]
+[13.5549294948577881] 2018-05-19 16:24:47,853 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [MUTE]
+[26.9382164478302002] 2018-05-19 16:25:01,236 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 148285445057413122/Kneecap#8600: +queue
+[40.0083525180816650] 2018-05-19 16:25:14,306 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 148285445057413122/Kneecap#8600: +skip
+[44.3934936523437500] 2018-05-19 16:25:18,692 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 235088799074484224/Rythm#3722 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[44.3934936523437500] 2018-05-19 16:25:18,692 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 235088799074484224/Rythm#3722 has left The Trash Clan/General
+[45.9703285694122314] 2018-05-19 16:25:20,268 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [UNMUTE]
+[49.0455226898193359] 2018-05-19 16:25:23,344 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +resume
+[53.1663098335266113] 2018-05-19 16:25:27,464 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +skip
+[53.1683082580566406] 2018-05-19 16:25:27,466 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for audio_cache\youtube-3UlRJwVawew-aHa_-_Take_On_Me.m4a
+[53.1688094139099121] 2018-05-19 16:25:27,467 - FFMPEG - musicbot.player | In player.py::MainThread(15608), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3UlRJwVawew-aHa_-_Take_On_Me.m4a
+[53.1733095645904541] 2018-05-19 16:25:27,471 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[53.1798090934753418] 2018-05-19 16:25:27,478 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[53.1813092231750488] 2018-05-19 16:25:27,479 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 868 in write_current_song: Writing current song for 324059918862778368
+[70.2249031066894531] 2018-05-19 16:25:44,523 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +volume 10
+[104.3044459819793701] 2018-05-19 16:26:18,602 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 148285445057413122/Kneecap#8600 on The Trash Clan/General -> [MUTE]
+[104.3885591030120850] 2018-05-19 16:26:18,687 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 235088799074484224/Rythm#3722 on The Trash Clan/General -> [JOIN, CONNECT]
+[104.3890495300292969] 2018-05-19 16:26:18,687 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 235088799074484224/Rythm#3722 has joined The Trash Clan/General
+[105.1019587516784668] 2018-05-19 16:26:19,400 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 148285445057413122/Kneecap#8600 on The Trash Clan/General -> [DEAFEN]
+[107.3891432285308838] 2018-05-19 16:26:21,687 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[107.5698518753051758] 2018-05-19 16:26:21,868 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 148285445057413122/Kneecap#8600 on The Trash Clan/General -> [UNDEAFEN]
+[107.8786251544952393] 2018-05-19 16:26:22,177 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 148285445057413122/Kneecap#8600 on The Trash Clan/General -> [UNMUTE]
+[110.9612274169921875] 2018-05-19 16:26:25,259 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [MUTE]
+[111.4180707931518555] 2018-05-19 16:26:25,716 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [DEAFEN]
+[112.4865679740905762] 2018-05-19 16:26:26,785 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [UNDEAFEN]
+[112.6947629451751709] 2018-05-19 16:26:26,993 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [UNMUTE]
+[116.0734446048736572] 2018-05-19 16:26:30,371 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[117.3983247280120850] 2018-05-19 16:26:31,696 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[128.8794457912445068] 2018-05-19 16:26:43,177 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[138.0887920856475830] 2018-05-19 16:26:52,387 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [DEAFEN]
+[138.8607354164123535] 2018-05-19 16:26:53,159 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [MUTE]
+[142.0511450767517090] 2018-05-19 16:26:56,349 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [UNMUTE]
+[142.1162364482879639] 2018-05-19 16:26:56,414 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [UNDEAFEN]
+[142.5935723781585693] 2018-05-19 16:26:56,892 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [DEAFEN]
+[143.2736175060272217] 2018-05-19 16:26:57,572 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [UNDEAFEN]
+[156.1290907859802246] 2018-05-19 16:27:10,427 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +skip
+[158.4822945594787598] 2018-05-19 16:27:12,780 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +np
+[162.1896424293518066] 2018-05-19 16:27:16,488 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +skip
+[172.1723573207855225] 2018-05-19 16:27:26,470 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +pause
+[180.2519567012786865] 2018-05-19 16:27:34,550 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 301576687282421760/Angel.Blu#8618 on The Trash Clan/General -> [JOIN, CONNECT]
+[180.2524564266204834] 2018-05-19 16:27:34,550 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 301576687282421760/Angel.Blu#8618 has joined The Trash Clan/General
+[198.9277544021606445] 2018-05-19 16:27:53,226 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 301576687282421760/Angel.Blu#8618 on The Trash Clan/study -> [LEAVE, MOVE]
+[198.9282541275024414] 2018-05-19 16:27:53,226 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 301576687282421760/Angel.Blu#8618 has left The Trash Clan/General
+[199.8367078304290771] 2018-05-19 16:27:54,135 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/study -> [LEAVE, MOVE]
+[199.8367078304290771] 2018-05-19 16:27:54,135 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 has left The Trash Clan/General
+[241.1263232231140137] 2018-05-19 16:28:35,424 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 148285445057413122/Kneecap#8600: +play breakbot ear rape
+[241.7962934970855713] 2018-05-19 16:28:36,094 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:breakbot ear rape', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'breakbot ear rape', 'webpage_url_basename': 'breakbot ear rape', 'extractor_key': 'Generic'}
+[252.0606927871704102] 2018-05-19 16:28:46,359 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for None
+[252.0616829395294189] 2018-05-19 16:28:46,360 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[252.0681962966918945] 2018-05-19 16:28:46,366 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=V4M8OpAnRCk
+[255.5013606548309326] 2018-05-19 16:28:49,799 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=V4M8OpAnRCk
+[279.7619948387145996] 2018-05-19 16:29:14,060 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[292.7641184329986572] 2018-05-19 16:29:27,062 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [JOIN, MOVE]
+[292.7641184329986572] 2018-05-19 16:29:27,062 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 has joined The Trash Clan/General
+[293.4577090740203857] 2018-05-19 16:29:27,756 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 301576687282421760/Angel.Blu#8618 on The Trash Clan/study -> [DISCONNECT]
+[389.6348688602447510] 2018-05-19 16:31:03,933 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[567.0127556324005127] 2018-05-19 16:34:01,311 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[567.0132544040679932] 2018-05-19 16:34:01,311 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 324057906691440640/ʅɐɯɯɐɯɥsɐɹꓕ#5274 has left The Trash Clan/General
+[607.5893118381500244] 2018-05-19 16:34:41,887 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 148285445057413122/Kneecap#8600 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[607.5898234844207764] 2018-05-19 16:34:41,888 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 148285445057413122/Kneecap#8600 has left The Trash Clan/General
+[633.4827377796173096] 2018-05-19 16:35:07,781 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 235088799074484224/Rythm#3722 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[633.4827377796173096] 2018-05-19 16:35:07,781 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 235088799074484224/Rythm#3722 has left The Trash Clan/General
+[662.0305757522583008] 2018-05-19 16:35:36,329 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +play The Middle
+[662.3702294826507568] 2018-05-19 16:35:36,668 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:The Middle', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'The Middle', 'webpage_url_basename': 'The Middle', 'extractor_key': 'Generic'}
+[669.7155992984771729] 2018-05-19 16:35:44,014 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[676.6390764713287354] 2018-05-19 16:35:50,937 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +queue
+[684.7635664939880371] 2018-05-19 16:35:59,062 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +skip
+[684.8057129383087158] 2018-05-19 16:35:59,104 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for None
+[684.8062148094177246] 2018-05-19 16:35:59,104 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for audio_cache\youtube-V4M8OpAnRCk-BreakBot_-_Baby_I_m_Yours_EAR_RAPE_VERSION.webm
+[684.8062148094177246] 2018-05-19 16:35:59,104 - FFMPEG - musicbot.player | In player.py::MainThread(15608), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-V4M8OpAnRCk-BreakBot_-_Baby_I_m_Yours_EAR_RAPE_VERSION.webm
+[684.8107287883758545] 2018-05-19 16:35:59,109 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[684.8162136077880859] 2018-05-19 16:35:59,114 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 196 in _download: Download cached: https://www.youtube.com/watch?v=xQzS3JnZQZM
+[684.8167130947113037] 2018-05-19 16:35:59,115 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[684.8212280273437500] 2018-05-19 16:35:59,119 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 868 in write_current_song: Writing current song for 324059918862778368
+[691.8214285373687744] 2018-05-19 16:36:06,119 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +skip
+[691.8315088748931885] 2018-05-19 16:36:06,130 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for audio_cache\youtube-xQzS3JnZQZM-Zedd_Grey_-_The_Middle_Lyrics_ft._Maren_Morris.webm
+[691.8320059776306152] 2018-05-19 16:36:06,130 - FFMPEG - musicbot.player | In player.py::MainThread(15608), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-xQzS3JnZQZM-Zedd_Grey_-_The_Middle_Lyrics_ft._Maren_Morris.webm
+[691.8365063667297363] 2018-05-19 16:36:06,135 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[691.8420097827911377] 2018-05-19 16:36:06,140 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[691.8435180187225342] 2018-05-19 16:36:06,142 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 868 in write_current_song: Writing current song for 324059918862778368
+[722.2699863910675049] 2018-05-19 16:36:36,568 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +volume 10
+[759.9336984157562256] 2018-05-19 16:37:14,232 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +pause
+[773.9676024913787842] 2018-05-19 16:37:28,266 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +resume
+[820.3555736541748047] 2018-05-19 16:38:14,654 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +pause
+[847.8713312149047852] 2018-05-19 16:38:42,169 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +resume
+[918.2533543109893799] 2018-05-19 16:39:52,551 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[933.2346031665802002] 2018-05-19 16:40:07,533 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +play Personal
+[933.5959966182708740] 2018-05-19 16:40:07,894 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Personal', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Personal', 'webpage_url_basename': 'Personal', 'extractor_key': 'Generic'}
+[940.9456298351287842] 2018-05-19 16:40:15,244 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for None
+[940.9466295242309570] 2018-05-19 16:40:15,245 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[940.9817395210266113] 2018-05-19 16:40:15,280 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 196 in _download: Download cached: https://www.youtube.com/watch?v=2YvG0NbYJpE
+[942.9545156955718994] 2018-05-19 16:40:17,253 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for audio_cache\youtube-2YvG0NbYJpE-HRVY_-_Personal_Official_Video.webm
+[942.9545156955718994] 2018-05-19 16:40:17,253 - FFMPEG - musicbot.player | In player.py::MainThread(15608), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-2YvG0NbYJpE-HRVY_-_Personal_Official_Video.webm
+[942.9590179920196533] 2018-05-19 16:40:17,257 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[942.9635176658630371] 2018-05-19 16:40:17,262 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 868 in write_current_song: Writing current song for 324059918862778368
+[1142.1685030460357666] 2018-05-19 16:43:36,467 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +np
+[1151.8602933883666992] 2018-05-19 16:43:46,158 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 324059918862778368
+[1188.5936000347137451] 2018-05-19 16:44:22,892 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 440549262208532481/Not Not Not Ainsley#7350 on The Trash Clan/General -> [JOIN, CONNECT]
+[1188.5941019058227539] 2018-05-19 16:44:22,892 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 440549262208532481/Not Not Not Ainsley#7350 has joined The Trash Clan/General
+[1233.8637094497680664] 2018-05-19 16:45:08,162 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 440549262208532481/Not Not Not Ainsley#7350 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[1233.8637094497680664] 2018-05-19 16:45:08,162 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 440549262208532481/Not Not Not Ainsley#7350 has left The Trash Clan/General
+[1952.3111443519592285] 2018-05-19 16:57:06,609 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 292871335305019394/Technology Help Bundaberg ㋡#9176 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[1952.3116447925567627] 2018-05-19 16:57:06,610 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 292871335305019394/Technology Help Bundaberg ㋡#9176 has left The Trash Clan/General
+[1962.6046576499938965] 2018-05-19 16:57:16,903 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 385690437827952641/ALEX THE SEAL SLAYER#1343 on The Trash Clan/General -> [LEAVE, DISCONNECT]
+[1962.6056454181671143] 2018-05-19 16:57:16,904 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 385690437827952641/ALEX THE SEAL SLAYER#1343 has left The Trash Clan/General
+[3483.1676397323608398] 2018-05-19 17:22:37,466 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +disconnect
+[3483.4241278171539307] 2018-05-19 17:22:37,722 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 440422461972938772/TechnologyHelpBundaberg#1450 on The Trash Clan/General -> [DISCONNECT]
+[3571.3331577777862549] 2018-05-19 17:24:05,631 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 292871335305019394/Technology Help Bundaberg ㋡#9176 on Technology Help Bundaberg/Music Admin Bot -> [CONNECT, MUTE]
+[3577.2391295433044434] 2018-05-19 17:24:11,537 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +summon
+[3577.2411029338836670] 2018-05-19 17:24:11,539 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2019 in cmd_summon: Joining Technology Help Bundaberg/Music Admin Bot
+[3577.2421095371246338] 2018-05-19 17:24:11,540 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 452 in get_voice_client: Connection attempt 1 to Music Admin Bot
+[3577.2426280975341797] 2018-05-19 17:24:11,541 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[3577.2431292533874512] 2018-05-19 17:24:11,541 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[3577.2436294555664062] 2018-05-19 17:24:11,542 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[3577.4723851680755615] 2018-05-19 17:24:11,770 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 440422461972938772/TechnologyHelpBundaberg#1450 on Technology Help Bundaberg/Music Admin Bot -> [JOIN, CONNECT]
+[3577.4728844165802002] 2018-05-19 17:24:11,771 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2949 in on_voice_state_update: 440422461972938772/TechnologyHelpBundaberg#1450 has joined Technology Help Bundaberg/Music Admin Bot
+[3577.4733834266662598] 2018-05-19 17:24:11,771 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[3577.6822307109832764] 2018-05-19 17:24:11,980 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[3577.9263520240783691] 2018-05-19 17:24:12,224 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[3577.9263520240783691] 2018-05-19 17:24:12,224 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 478 in get_voice_client: Connected in 0.7s
+[3577.9268777370452881] 2018-05-19 17:24:12,225 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 479 in get_voice_client: Connected to Technology Help Bundaberg/Music Admin Bot
+[3577.9283030033111572] 2018-05-19 17:24:12,226 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 849 in deserialize_queue: Deserializing queue for 417624655550087168
+[3577.9648137092590332] 2018-05-19 17:24:12,263 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 570 in get_player: Created player via deserialization for server 417624655550087168 with 0 entries
+[3577.9653003215789795] 2018-05-19 17:24:12,263 - VOICEDEBUG - musicbot.player | In player.py::MainThread(15608), line 373 in websocket_check: Starting websocket check loop for Technology Help Bundaberg
+[3594.0990843772888184] 2018-05-19 17:24:28,397 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +play Treat you Better Lyrics
+[3594.3493003845214844] 2018-05-19 17:24:28,647 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Treat you Better Lyrics', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Treat you Better Lyrics', 'webpage_url_basename': 'Treat you Better Lyrics', 'extractor_key': 'Generic'}
+[3601.4257051944732666] 2018-05-19 17:24:35,724 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for None
+[3601.4267036914825439] 2018-05-19 17:24:35,725 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 417624655550087168
+[3601.4341893196105957] 2018-05-19 17:24:35,732 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=UKia3wmPrvM
+[3603.4359104633331299] 2018-05-19 17:24:37,734 - DEBUG - musicbot.entry | In entry.py::MainThread(15608), line 54 in get_ready_future: Created future for None
+[3604.4687418937683105] 2018-05-19 17:24:38,767 - INFO - musicbot.entry | In entry.py::MainThread(15608), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=UKia3wmPrvM
+[3604.4707415103912354] 2018-05-19 17:24:38,769 - FFMPEG - musicbot.player | In player.py::MainThread(15608), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-UKia3wmPrvM-Shawn_Mendes_-_Treat_You_Better_-Lyrics-.webm
+[3604.4762425422668457] 2018-05-19 17:24:38,774 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 825 in serialize_queue: Serializing queue for 417624655550087168
+[3604.4817445278167725] 2018-05-19 17:24:38,780 - DEBUG - musicbot.bot | In bot.py::MainThread(15608), line 868 in write_current_song: Writing current song for 417624655550087168
+[3770.9818634986877441] 2018-05-19 17:27:25,280 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +disconnect
+[3771.2436361312866211] 2018-05-19 17:27:25,542 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15608), line 2938 in on_voice_state_update: Voice state update for 440422461972938772/TechnologyHelpBundaberg#1450 on Technology Help Bundaberg/Music Admin Bot -> [DISCONNECT]
+[3775.6291484832763672] 2018-05-19 17:27:29,927 - INFO - musicbot.bot | In bot.py::MainThread(15608), line 2734 in on_message: 292871335305019394/Technology Help Bundaberg ㋡#9176: +shutdown
+[3776.227185488] launcher-INFO: All done.
